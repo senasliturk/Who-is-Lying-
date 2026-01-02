@@ -12,7 +12,7 @@ export default function Login() {
     e.preventDefault();
     setMsg("");
 
-    const r = await fetch(`/api/auth/login`, {
+    const r = await fetch(`${API_BASE}/api/auth/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
@@ -24,8 +24,8 @@ export default function Login() {
     localStorage.setItem("token", data.token);
     localStorage.setItem("user", JSON.stringify(data.user));
     window.dispatchEvent(new Event("auth-changed"));
-    
-    window.location.href = "/game";
+  
+    nav("/game");
   }
 
   return (
@@ -47,7 +47,7 @@ export default function Login() {
           <div>
             <label style={{ display: "block", marginBottom: 6, fontSize: "0.8rem", color:"#888", textTransform:"uppercase" }}>Password</label>
             <input 
-              style={{ width: "100%", boxSizing: "border-box" }}
+              style={{ width: "100%", boxSsizing: "border-box" }}
               value={password} 
               onChange={(e) => setPassword(e.target.value)} 
               placeholder="••••••••" 
@@ -74,7 +74,4 @@ export default function Login() {
       </div>
     </div>
   );
-
 }
-
-
