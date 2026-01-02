@@ -33,16 +33,11 @@
 
 
 <img width="1869" height="764" alt="Ekran görüntüsü 2026-01-02 162605" src="https://github.com/user-attachments/assets/acc108f0-efde-4e12-9c63-b5f65e2477b0" />
+
+
 <img width="1890" height="851" alt="Ekran görüntüsü 2026-01-02 162540" src="https://github.com/user-attachments/assets/3e279b3f-5a15-45c5-ae31-e00f993ae560" />
 
 
-| **Case Selection** | **Suspect Interrogation** |
-|:---:|:---:|
-| <img src="./client/public/case-selection.jpg" alt="Home Screen" width="400"/> | <img src="./client/public/game-screen.jpg" alt="Game Screen" width="400"/> |
-
-| **Hacker Terminal** | **Victory Screen** |
-|:---:|:---:|
-| <img src="./client/public/terminal.jpg" alt="Forensics" width="400"/> | <img src="./client/public/win.jpg" alt="Win" width="400"/> |
 
 ---
 
