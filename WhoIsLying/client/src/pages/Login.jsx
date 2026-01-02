@@ -25,7 +25,7 @@ export default function Login() {
     localStorage.setItem("user", JSON.stringify(data.user));
     window.dispatchEvent(new Event("auth-changed"));
     
-    nav("/", {replace:true});
+    nav("/game", {replace:true});
   }
 
   return (
@@ -74,4 +74,5 @@ export default function Login() {
       </div>
     </div>
   );
+
 }
