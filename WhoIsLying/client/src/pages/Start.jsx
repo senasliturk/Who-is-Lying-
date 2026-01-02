@@ -5,7 +5,6 @@ export default function Start() {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
 
-  // Sayfa açılınca giriş yapmış mı kontrol et
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
@@ -17,7 +16,6 @@ export default function Start() {
     }
   }, []);
 
-  // Senaryo Kartları Verisi
   const cards = [
     { 
       type: "party", 
@@ -39,9 +37,6 @@ export default function Start() {
     },
   ];
 
-  // ------------------------------------------------
-  // 1. GÖRÜNÜM: MİSAFİR EKRANI (Landing Page)
-  // ------------------------------------------------
   if (!user) {
     return (
       <div style={{ 
@@ -105,13 +100,9 @@ export default function Start() {
     );
   }
 
-  // ------------------------------------------------
-  // 2. GÖRÜNÜM: GİRİŞ YAPMIŞ KULLANICI EKRANI (Dashboard)
-  // ------------------------------------------------
   return (
     <div style={{ maxWidth: 1200, margin: "0 auto", padding: "40px 20px" }}>
-      
-      {/* Üst Karşılama Alanı */}
+
       <div style={{ marginBottom: 40, borderBottom: "1px solid #333", paddingBottom: 20, display:"flex", justifyContent:"space-between", alignItems:"center", flexWrap:"wrap", gap:20 }}>
         <div>
           <h2 style={{ fontSize: "2rem", margin: 0, color: "#c0c0c0" }}>
@@ -136,7 +127,6 @@ export default function Start() {
 
       <h3 style={{ color: "#888", marginBottom: 20, fontSize: "1rem" }}>AVAILABLE MISSIONS</h3>
 
-      {/* Kartlar Grid */}
       <div style={{ 
         display: "grid", 
         gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", 
@@ -195,4 +185,5 @@ export default function Start() {
       </div>
     </div>
   );
+
 }
