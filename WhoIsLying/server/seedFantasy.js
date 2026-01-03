@@ -32,13 +32,13 @@ const fantasyData = {
       isLiar: false
     },
     {
-      charId: "elara",
-      name: "Lady Elara",
-      avatarUrl: "/elara.jpg",
-      role: "The Royal Healer",
-      memeTitle: "Trust me, I'm a doctor",
+      charId: "Suphi",
+      name: "Suphi Hoca",
+      avatarUrl: "/suphihoca.jpg",
+      role: "The Royal wizard",
+      memeTitle: "Trust me, I'm a wizard I just stole a note from the students",
       personality: "Gentle, Soft-spoken, Secretly Vengeful.",
-      statement: "I only gave him a potion for his migraine. It was pure peppermint and moonwater. I serve life, I do not take it. Perhaps his old heart just... gave out?",
+      statement: "Ben sadece 90 verdim. Eğer 100 verseydim yalancı olduğumu anlardınız.",
       isLiar: true 
     },
     {
