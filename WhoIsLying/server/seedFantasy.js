@@ -13,10 +13,10 @@ const fantasyData = {
   
   clues: [
     { id: 1, type: "magic", text: "Aura Analysis: No offensive spells detected in the room. The death was biological, not magical." },
-    { id: 2, type: "object", text: "On the Desk: An empty vial labeled 'Restorative Draught' signed by the Royal Healer." },
+    { id: 2, type: "object", text: "On the Desk: An empty vial labeled 'Restorative Draught' signed by the Royal Wizard." },
     { id: 3, type: "alchemy", text: "Goblet Residue: Traces of 'Nightshade' found mixed with red wine." },
     { id: 4, type: "witness", text: "Gargoyle Sentry: 'No one entered the tower after sunset except the Archmage himself.'" },
-    { id: 5, type: "scroll", text: "Alaric's Journal (Last Entry): 'I fear those closest to me. The Healer smiles too much.'" },
+    { id: 5, type: "scroll", text: "Alaric's Journal (Last Entry): 'I fear those closest to me. The Wizard smiles too much.'" },
     { id: 6, type: "spell", text: "Defensive Ward: The tower's protection shield was intact. The killer didn't break in." }
   ],
 
@@ -103,4 +103,5 @@ async function seed() {
 }
 
 seed();
+
 
