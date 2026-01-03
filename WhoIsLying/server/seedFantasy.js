@@ -8,8 +8,8 @@ const fantasyData = {
   type: "fantasy",
   title: "CASE: THE SILENT SPELL",
   description: "The Grand Archmage Alaric was found dead in his sealed tower. No wounds. No entry signs. 6 magical suspects. Who cast the killing curse?",
-  solution: "elara", 
-  explanation: "It wasn't a curse, it was a delayed poison disguised as a cure. Elara gave Alaric a 'healing potion' for his headache hours ago. The potion interacted with the wine he drank later, stopping his heart instantly.",
+  solution: "Suphi", 
+  explanation: "It wasn't a curse, it was a delayed poison disguised as a cure.Suphi gave Alaric a so-called calming potion after hearing hours earlier that Alaric had given students a score of 100. However, after drinking the potion, Alaric suffered a heart attack and died before he could enter the grades into the system.",
   
   clues: [
     { id: 1, type: "magic", text: "Aura Analysis: No offensive spells detected in the room. The death was biological, not magical." },
@@ -103,3 +103,4 @@ async function seed() {
 }
 
 seed();
+
